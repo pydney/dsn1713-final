@@ -73,19 +73,50 @@
     </div>
   </nav>
 
-  <!-- hero section -->
-  <header class="hero d-flex align-items-center text-center text-light">
-    <div class="container">
+<!-- HERO — HOME PAGE -->
+<header>
+  <div style="position: relative; overflow: hidden;">
+    <!-- HERO IMAGE -->
+    <img
+      src="images/images-book-covers-web/hero-section-photo.jpg"
+      alt="Bookshelves at Black Squirrel"
+      style="
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        display: block;
+      "
+    >
+
+    <!-- DARK OVERLAY -->
+    <div
+      style="
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.45);
+      "
+    ></div>
+
+    <!-- TEXT ON TOP -->
+    <div
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      "
+    >
       <h1 class="display-3 fw-bold mb-3">Black Squirrel</h1>
       <p class="lead mb-0">
-        Serving up the finest local roasts and intensely curated used books.<br />
+        Serving up the finest local roasts and intensely curated used books.<br>
         9am to 5pm every day.
       </p>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="py-5 bg-light">
-    <div class="container">
       <!-- new releases -->
       <section class="mb-5">
         <div class="d-flex justify-content-between align-items-center mb-3">
@@ -256,6 +287,28 @@
         </div>
       </div>
     </div>
+
+<footer class="site-footer mt-5">
+  <div class="container">
+
+    <!-- mobile footer -->
+    <div class="footer-mobile d-md-none py-4 d-flex justify-content-center">
+      <div class="footer-pill text-center">
+        <div class="d-flex align-items-center justify-content-center mb-2">
+          <span class="footer-logo-circle me-2"></span>
+          <span class="footer-brand">Black Squirrel</span>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="footer-icon">🐦</a>
+          <a href="#" class="footer-icon">📘</a>
+          <a href="#" class="footer-icon">📸</a>
+          <a href="#" class="footer-icon">💼</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
   </footer>
 
   <!-- Bootstrap JS -->

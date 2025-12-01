@@ -71,71 +71,13 @@ body {
     color: #f5d9a6;
 }
 
-/* Hero */
-.hero {
-    background-image: url("images/images-book-covers/hero-section-photo.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-  }
-  
-  .hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.45);
-  }
-  
-  .hero > * {
-    position: relative;
-    z-index: 1;
-  }
 
-.hero-section {
-    position: relative;
-    background-image: url("https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-size: cover;
-    background-position: center;
-    min-height: 350px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.7)
-    );
-}
-
-.hero-content {
-    position: relative;
-    text-align: center;
-    max-width: 700px;
-    padding: 1.5rem;
-}
-
-.hero-title {
-    font-size: clamp(2.2rem, 4vw, 3.2rem);
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-}
-
-.hero-subtitle {
-    font-size: 1.05rem;
+/* Center text on top */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Sections */

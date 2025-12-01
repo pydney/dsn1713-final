@@ -56,13 +56,47 @@
     </div>
   </nav>
 
-  <!-- hero section -->
-  <header class="cafe-hero d-flex align-items-center text-center text-light">
-    <div class="container">
+<!-- HERO — CAFE PAGE -->
+<header>
+  <div style="position: relative; overflow: hidden;">
+    <!-- HERO IMAGE -->
+    <img
+      src="images/images-cafe-web/cafe-hero.jpg"
+      alt="Inside Black Squirrel's cozy cafe"
+      style="
+        width: 100%;
+        height: 45vh;         /* shorter than home */
+        object-fit: cover;
+        display: block;
+      "
+    >
+
+    <!-- DARK OVERLAY -->
+    <div
+      style="
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.45);
+      "
+    ></div>
+
+    <!-- TEXT ON TOP -->
+    <div
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      "
+    >
       <h1 class="display-4 fw-bold mb-2">Black Squirrel’s</h1>
       <h2 class="h2 fw-semibold mb-0">Cozy Café</h2>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <!-- main content -->
   <main class="cafe-page py-5">
