@@ -124,40 +124,42 @@ body {
     letter-spacing: 0.15em;
 }
 
-/* Footer */
-.footer {
-    background-color: #1b0f09;
-    color: #f3e1cf;
-    padding: 2.2rem 0 1.2rem;
-    font-size: 0.9rem;
+.footer-mobile {
+  background: #000; /* so area behind pill stays black */
 }
 
-.footer h6 {
-    font-weight: 600;
-    margin-bottom: 0.75rem;
+.footer-pill {
+  background: #000;          /* black pill */
+  border-radius: 999px;
+  padding: 0.75rem 1.75rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.45);
+  display: inline-block;
+  border: 2px solid #fff;    /* white border to match your Figma look */
 }
 
-.footer a {
-    color: #f3e1cf;
-    text-decoration: none;
-    font-size: 0.9rem;
+.footer-logo-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #fff;    /* white border */
+  display: inline-block;
 }
 
-.footer a:hover {
-    text-decoration: underline;
+.footer-brand {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #fff;
 }
 
-.footer .social-icons i {
-    font-size: 1.1rem;
-    margin-right: 0.75rem;
+.footer-icon {
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin: 0 0.4rem;
+  color: #fff;
 }
-
-/* Utility */
-.page-header {
-    padding: 2.5rem 0 1rem;
+.footer-icon:hover {
+  opacity: 0.65;
 }
-
-
 
 
 

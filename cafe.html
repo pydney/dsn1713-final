@@ -19,10 +19,19 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <span class="rounded-circle border border-2 border-warning d-inline-block me-2"
-              style="width:32px; height:32px;"></span>
-        <span class="fw-bold">Black Squirrel</span>
-      </a>
+        
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/black-squirrel-logo.jpg" alt="Black Squirrel logo"
+            style="
+              height:38px;
+              width:38px;
+              object-fit:cover;
+              border-radius:50%;
+              border:2px solid #f4d46a;
+              margin-right:10px;
+            ">
+          <span style="font-weight:600;">Black Squirrel</span>
+        </a>
 
       <button
         class="navbar-toggler"
@@ -56,10 +65,10 @@
     </div>
   </nav>
 
-<!-- HERO — CAFE PAGE -->
+<!-- hero -->
 <header>
   <div style="position: relative; overflow: hidden;">
-    <!-- HERO IMAGE -->
+
     <img
       src="images/images-cafe-web/cafe-hero.jpg"
       alt="Inside Black Squirrel's cozy cafe"
@@ -71,7 +80,6 @@
       "
     >
 
-    <!-- DARK OVERLAY -->
     <div
       style="
         position: absolute;
@@ -80,7 +88,6 @@
       "
     ></div>
 
-    <!-- TEXT ON TOP -->
     <div
       style="
         position: absolute;
@@ -201,27 +208,74 @@
     </div>
   </main>
 
-  <!-- footer -->
-  <footer class="bg-dark text-light py-4 mt-5">
+   <!-- footer -->
+   <footer style="background-color:#000; color:#fff;">
     <div class="container">
-      <div class="row gy-3">
-        <div class="col-12 col-md-4">
-          <h6 class="text-uppercase small mb-2">Find us at</h6>
-          <p class="mb-1">123 Book Lane<br>Ottawa, ON</p>
-          <p class="mb-0">Open daily 9am – 5pm</p>
+  
+      <!-- desktop -->
+      <div class="footer-desktop d-none d-md-flex justify-content-between align-items-start py-4">
+
+        <div class="col-md-4">
+          <h6 class="text-uppercase small mb-2" style="color:#fff; letter-spacing:0.08em;">Find us at</h6>
+          <p class="mb-1" style="color:#fff;">
+            Black Squirrel Books<br>
+            1073 Bank Street<br>
+            Ottawa, ON<br>
+            Canada K1S 3W9
+          </p>
+          <p class="mb-0" style="color:#fff;">Main &amp; Union</p>
         </div>
-        <div class="col-12 col-md-4 text-center">
-          <p class="fw-bold mb-1">Black Squirrel</p>
-          <p class="small mb-0">Coffee • Books • Community</p>
+  
+        <div class="col-md-4 text-center">
+          <div class="mb-2">
+            <img src="images/black-squirrel-logo.jpg" alt="Black Squirrel logo"
+              style="
+                height:48px;
+                width:48px;
+                object-fit:cover;
+                border-radius:50%;
+                border:2px solid #f4d46a;
+              ">
+          </div>
+
+          <p class="fw-bold mb-1" style="color:#fff;">Black Squirrel</p>
+          <p class="small mb-1" style="color:#fff;">
+            Twitter &bull; Facebook &bull; Instagram
+          </p>
+          <p class="small mb-0" style="color:#fff;">
+            &copy;2015 &bull; Form &bull; All rights reserved
+          </p>
         </div>
-        <div class="col-12 col-md-4 text-md-end">
-          <h6 class="text-uppercase small mb-2">Contact us</h6>
-          <p class="mb-1">info@blacksquirrel.ca</p>
-          <p class="mb-0">613-555-1234</p>
+  
+        <div class="col-md-4 text-md-end">
+          <h6 class="text-uppercase small mb-2" style="color:#fff; letter-spacing:0.08em;">Contact us</h6>
+          <p class="mb-1" style="color:#fff;">613-422-8050</p>
+          <p class="mb-0" style="color:#fff;">blacksquirrelbooks@gmail.com</p>
         </div>
       </div>
-    </div>
-  </footer>
+      
+          <!-- mobile -->
+          <div class="footer-mobile d-md-none py-4 d-flex justify-content-center">
+            <div style="
+              background:#000;
+              padding:0.9rem 2rem;
+              display:inline-block;
+              text-align:center;
+            ">
+              <div style="font-weight:600; font-size:1rem; color:#fff; margin-bottom:4px;">
+                Black Squirrel
+              </div>
+      
+              <div>
+                <a href="#" style="color:#fff; text-decoration:none; margin:0 0.4rem;">Instagram</a>
+                <a href="#" style="color:#fff; text-decoration:none; margin:0 0.4rem;">Facebook</a>
+                <a href="#" style="color:#fff; text-decoration:none; margin:0 0.4rem;">Twitter</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
