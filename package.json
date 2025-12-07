@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pydney/dsn1713-final/issues"
   },
-  "homepage": "https://github.com/pydney/dsn1713-final#readme"
+  "homepage": "https://github.com/pydney/dsn1713-final#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
